@@ -24,11 +24,6 @@ export default {
       type: "mainImage",
       title: "Image",
     },
-    {
-      name: "bio",
-      type: "bioPortableText",
-      title: "Biography",
-    },
   ],
   preview: {
     select: {
