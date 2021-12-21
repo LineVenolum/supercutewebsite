@@ -21,6 +21,7 @@ import section from "./objects/section";
 import sectionBlock from "./objects/sectionBlock";
 import navItem from "./objects/navItem";
 import link from "./objects/link";
+import herobanner from "./objects/herobanner";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -45,6 +46,7 @@ export default createSchema({
     link,
     navItem,
     navigation,
+    herobanner,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
